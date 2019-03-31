@@ -8,9 +8,17 @@
     android:orientation="horizontal">
 
     <fragment
+        android:id="@+id/fragment_list"
+        class="com.elcio.workout5.WorkoutListFragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"/>
+
+    <fragment
         android:id="@+id/fragment_detail"
         class="com.elcio.workout5.WorkoutDetailFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></fragment>
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
